@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clear Skin Journey</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(202, 229, 238);
+        color: #333;
+        line-height: 1.6;
+      }
+
+      
+      header {
+        background-color: #5ca4a9;
+        color: #fff;
+        padding: 30px;
+        text-align: center;
+        font-size: 20px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 2.5em;
+        letter-spacing: 2px;
+      }
+
+      
+      h2 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+        font-size: 2em;
+        color: #333;
+      }
+
+      /* Introduction section */
+      .intro {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 40px;
+        text-align: left;
+        background-color: #fff;
+      }
+      .intro-text
+      {
+        flex: 1;
+        margin-right: 20px;
+      }
+      .intro-text p
+       {
+        font-size: 1.2em;
+        color: #555;
+        line-height: 1.8;
+        text-align: left;
+       }
+       intro-video
+       {
+        flex: 1;
+        max-width: 500px;
+       }
+      
+    
+      /* Navigation bar */
+      nav {
+        background-color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        margin: 0 15px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: inline-block;
+        font-size: 1.1em;
+        transition: background-color 0.3s;
+      }
+
+      nav ul li a:hover {
+        background-color: #555;
+        color: white;
+      }
+
+      /* Section for skin conditions */
+      .condition {
+        padding: 20px;
+        margin: 20px;
+        background-color: #f0f8ff;
+        border-radius: 10px;
+        text-align: left;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      
+      .condition h3 {
+        font-size: 1.8em;
+        color: #5ca4a9; 
+      }
+
+      .condition img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .condition p {
+        margin: 10px 0;
+        color: #555;
+        font-size: 1.1em;
+        line-height: 1.8;
+      }
+
+      .condition p strong {
+        font-size: 1.2em;
+      }
+
+     
+      .condition p em {
+        font-style: italic;
+      }
+
+      
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 40px;
+        font-size: 0.9em;
+      }
+
+      footer p {
+        margin: 5px 0;
+      }
+
+    
+    </style>
+  </head>
+  <body>
+    <!-- NAV bar -->
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#atopic-dermatitis">Atopic Dermatitis</a></li>
+        <li><a href="#hives">Hives</a></li>
+        <li><a href="#psoriasis">Psoriasis</a></li>
+        <li><a href="#rosacea">Rosacea</a></li>
+        <li><a href="#scabies">Scabies</a></li>
+        <li><a href="#xerosis">Xerosis</a></li>
+      </ul>
+    </nav>
+
+    <!-- Header with title -->
+    <header id="home">
+      <h1>Clear Skin Journey</h1>
+    </header>
+
+    <!-- Introduction section -->
+    <section class="intro">
+      <div class="intro-text">
+      <h2>Learn About Skin:</h2>
+      <p>
+        Skin diseases are common conditions that affect the health and appearance of the skin. Understanding the causes, symptoms, and treatments is the first step toward managing and curing these skin conditions. Explore different skin diseases and learn how to manage or treat them effectively with proper care, preventive measures, and available treatments. Let us guide you to clearer, healthier skin!
+      </p>
+      </div>
+     <div class="intro-video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M9vgBeK96J4?si=dDORIaQb5YCRdz33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+
+
+    <!-- Skin Conditions -->
+    <section id="atopic-dermatitis" class="condition">
+      <h3>Atopic Dermatitis</h3>
+      <img src="atopicdermatitis.webp" alt="Atopic Dermatitis" />
+      <p>
+        <strong>Atopic Dermatitis</strong>, commonly known as eczema, is a chronic inflammatory skin condition characterized by dry, itchy patches. It often begins in childhood and can affect any age. It results from a combination of genetic, environmental, and immune factors.
+      </p>
+      <p><em><strong>Symptoms:</strong> Red, itchy rashes, often on the hands, feet, and face.</em></p>
+      <p><em><strong>Prevention:</strong> Keep skin moisturized and avoid known irritants.</em></p>
+      <p><em><strong>Treatment:</strong> Moisturizing creams, corticosteroids, and antihistamines.</em></p>
+    </section>
+
+    <section id="hives" class="condition">
+      <h3>Hives (Urticaria)</h3>
+      <img src="hives.webp" alt="Hives" />
+      <p>
+        <strong>Hives</strong>, or urticaria, are raised, itchy welts on the skin caused by allergic reactions, infections, or stress. They can appear suddenly, often accompanied by swelling.
+      </p>
+      <p><em><strong>Symptoms:</strong> Raised, red, itchy welts that appear and fade quickly.</em></p>
+      <p><em><strong>Prevention:</strong> Avoid triggers such as certain foods or medications.</em></p>
+      <p><em><strong>Treatment:</strong> Antihistamines and corticosteroids to reduce inflammation.</em></p>
+    </section>
+
+    <section id="psoriasis" class="condition">
+      <h3>Psoriasis</h3>
+      <img src="psoriasis.webp" alt="Psoriasis" />
+      <p>
+        <strong>Psoriasis</strong> is a chronic autoimmune skin condition that leads to rapid skin cell production, causing thick, red patches covered with silvery scales. Triggers include stress and certain medications.
+      </p>
+      <p><em><strong>Symptoms:</strong> Thick, red patches of skin with silvery scales.</em></p>
+      <p><em><strong>Prevention:</strong> Reduce stress, keep skin moisturized.</em></p>
+      <p><em><strong>Treatment:</strong> Topical treatments, phototherapy, and immune-suppressing medications.</em></p>
+    </section>
+
+    <section id="rosacea" class="condition">
+      <h3>Rosacea</h3>
+      <img src="rosacea.jpg" alt="Rosacea" />
+      <p>
+        <strong>Rosacea</strong> is a chronic skin condition characterized by facial redness, visible blood vessels, and small, pus-filled bumps. It commonly affects the cheeks, nose, and forehead.
+      </p>
+      <p><em><strong>Symptoms:</strong> Facial redness, visible blood vessels.</em></p>
+      <p><em><strong>Prevention:</strong> Avoid triggers like alcohol and spicy foods.</em></p>
+      <p><em><strong>Treatment:</strong> Antibiotics, topical creams, and laser therapy.</em></p>
+    </section>
+
+    <section id="scabies" class="condition">
+      <h3>Scabies</h3>
+      <img src="scabies.jpg" alt="Scabies" />
+      <p>
+        <strong>Scabies</strong> is a contagious skin infestation caused by mites, leading to intense itching and red rashes.
+      </p>
+      <p><em><strong>Symptoms:</strong> Intense itching and pimple-like rashes.</p>
+      <p><strong>Prevention:</strong> Avoid contact with infected individuals.</p>
+      <p><strong>Treatment:</strong> Prescription creams or lotions to eliminate mites.</p>
+    </section>
+
+    <section id="xerosis" class="condition">
+      <h3>Xerosis (Dry Skin)</h3>
+      <img src="xerosis.jpg" alt="Xerosis" />
+      <p>
+        <strong>Xerosis</strong>, or dry skin, is characterized by rough, flaky, and itchy skin, often due to low humidity or excessive washing.
+      </p>
+      <p><strong>Symptoms:</strong> Dry, flaky skin with itching and cracking.</p>
+      <p><strong>Prevention:</strong> Regular moisturizing and avoiding hot showers.</p>
+      <p><strong>Treatment:</strong> Emollient creams and avoiding harsh soaps.</p>
+    </section>
+
+    <footer>
+      <p>Contact us for personalized skincare advice.</p>
+      <p>Email: info@clearskinjourney.com | Phone: 123-456-7890</p>
+      <p>&copy; 2024 Clear Skin Journey. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
